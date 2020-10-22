@@ -33,7 +33,9 @@ into /usr/local/lib/pkgconfig and will install a python wrapper if python3 is in
 
 If you have CMake installed or it is not difficult to install, then do:
 
+    $ cd apriltag
     $ cmake .
+    $ make
     $ sudo make install
     
 Otherwise, we have a handwritten makefile you can use (be warned it will do slightly different things):
